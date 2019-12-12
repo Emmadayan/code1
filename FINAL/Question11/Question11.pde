@@ -17,7 +17,7 @@ if(xPos >= width || xPos <= 2){
 
 xPos += xDirection; 
 //use the map function for ampl
-ampl = map(xPos, 0, xPos, 0, xPos);
+ampl = map(xPos, 0, xPos, 0, xPos/3);
 yPos = sin(theta) * ampl+height/2;
 
 fill(255);
